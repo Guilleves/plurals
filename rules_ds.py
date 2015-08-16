@@ -30,4 +30,4 @@ rules = ((match_sxz, apply_sxz), (match_h, apply_h), (match_y, apply_y), (match_
 def plural(noun):
     for matches_rule, apply_rule in rules:
         if matches_rule(noun):
-            return apply_rule(noun)
+            return apply_rule(noun) 
